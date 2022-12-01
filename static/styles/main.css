@@ -1,25 +1,56 @@
+html, body {
+    height: 100%;
+}
+
 body {
 	background: black;
     overflow: hidden;
-    text-shadow: 0 0 5px #C8C8C8;
+    margin: 0px;
+    
 }
 
 .bg {
-	height: 100vh;
     width: 100%;
+    height: 100%;
+    position:absolute;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.card {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mp {
+    width: 60vh;
+}
+
+.twitch {
+    margin-bottom: 30px;
+}
+
+.line {
+    background-color: yellow;
+    width: 60vh;
+    color: yellow;
+    height: 3px;
+    margin-bottom: 30px;
 }
 
 .star {
     font-size: 5px;
     position: absolute;
     z-index: 1;
+    height: 10px;
+    width: 10px;
 }
-
-    .star .wrapper {
-        position: absolute;
-        height: 10px;
-        width: 10px;
-    }
 
     .star .dot {
         background: white;
@@ -27,8 +58,6 @@ body {
         width: 1em;
         position: absolute;
         display: none;
-        top: 50%;
-        left: 50em;
         margin: 0;
         padding: 0;
     }
@@ -125,6 +154,9 @@ body {
         margin-left: -2em;
         display: block;
     }
+
+
+
 /*.distortion {
 	z-index: 100;
     background-image: repeating-linear-gradient(
