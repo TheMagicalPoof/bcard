@@ -29,7 +29,8 @@ body {
 }
 
 .mp {
-    width: 60vh;
+    width: 64vh;
+    margin-bottom: 3vh;
 }
 
 .twitch {
@@ -38,10 +39,10 @@ body {
 
 .line {
     background-color: yellow;
-    width: 60vh;
+    width: 64vh;
     color: yellow;
-    height: 3px;
-    margin-bottom: 30px;
+    height: 0.3vh;
+    margin-bottom: 3vh;
 }
 
 .star {
